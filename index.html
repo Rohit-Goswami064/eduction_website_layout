@@ -15,54 +15,72 @@
 
 <body>
 
-  <Header class="hero">
+  <Header class="Header">
+
+    <div>logo </div>
+    <div class="nav-Items">
+      <ul>
+        <li>Home</li>
+        <li>Blog</li>
+        <li>Contect</li>
+        <li>About</li>
+      </ul>
+    </div>
+  </Header>
+  <section class="hero">
     <h1 class="hero_title">EMPOWER YOUNG MINDS</h1>
     <p class="hero_description"> Discover a world of learing possibilities with our <span
         class="hero_hightlight">innovative</span> eductional platform </p>
-  </Header>
+
+  </section>
 
 
 
+  <section class="feature">
+    <div class="feature_box">
+      <div class="feature_container">
+        <div class="feature_item">
 
-  <section class="feature ">
-    <div class="feature_container">
-      <div class="feature_item">
+          <h2 class="feature_title"> Streamlined Communication Tools</h2>
+          <p class="feature_description">
+            stay connected with parents and students throught our easy-to-use
+            communication feature. Foster collaboration and transparency
+            within your eductional community.
+        </div>
 
-        <h2 class="feature_title "> Streamlined Communication Tools</h2>
-        <p class="feature_description">
-          stay connected with parents and students throught our easy-to-use
-          communication feature. Foster collaboration and transparency
-          within your eductional community.
+
+      </div>
+
+      <div class="feature_container">
+        <div class="feature_item">
+
+          <h2 class="feature_title ">Customizable Learing Exprience</h2>
+          <p class="feature_description">
+            Tailor your curriculum to meet the unique needs of your students.Our flexible platform allows eductors to
+            create personalized learning paths.
+        </div>
+
+
       </div>
 
 
-    </div>
 
-    <div class="feature_container">
-      <div class="feature_item">
-
-        <h2 class="feature_title ">Customizable Learing Exprience</h2>
-        <p class="feature_description">
-          Tailor your curriculum to meet the unique needs of your students.Our flexible platform allows eductors to
-          create personalized learning paths.
+      <div class="feature_container">
+        <div class="feature_item">
+          <h2 class="feature_title "> Empower students Learning.</h2>
+          <p class="feature_description">
+            Our platform enhances students engagement by providing interactive learning tools.Experience a seamless
+            integration of technology that support driverse learing styles. </p>
+        </div>
       </div>
 
+    </div>
+    <div class="feature_image-container">
+      <img class="feature_image" src="./images/features.jpg" alt="feature image">
+
 
     </div>
 
-
-
-    <div class="feature_container">
-      <div class="feature_item">
-        <h2 class="feature_title "> Empower students Learning.</h2>
-        <p class="feature_description">
-          Our platform enhances students engagement by providing interactive learning tools.Experience a seamless
-          integration of technology that support driverse learing styles. </p>
-      </div>
-    </div>
-
-
-    </div>
   </section>
 
 
@@ -87,6 +105,7 @@
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi perferendis nemo voluptate qui et asperiores,
       aliquid.
     </p>
+    <button class="programs_button"> learn Mor</button>
     <div class="video__control">
       <button class="video__btn videos__btn--primary">
         <i class="fas fa-book"></i> Learn More
@@ -97,6 +116,82 @@
     </div>
     <div class="video__container"></div>
   </section>
+
+
+  <section class="programs">
+    <h2>Explore Our state of the Art Facilities and Enriching Learning Experience</h2>
+
+
+    <div class="programs_cards">
+      <div class="programs__card">
+        <img class="programs__card-img" src="images/program1.jpg" alt="program1">
+        <h3 class="program-card-descriptions"> Engongong Extracurrircular Activities for holistic Student Development
+        </h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+        <button class="programs_button"> learn More</button>
+
+      </div>
+      <div class="programs__card">
+        <img class="programs__card-img" src="images/program2.jpg" alt="program1">
+        <h3 class="program-card-descriptions ">Diverse Academic Programs Tallored to Student Interests and Goals</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+
+        <button class="programs_button"> learn More</button>
+
+      </div>
+      <div class="programs__card">
+        <img class="programs__card-img" src="images/program3.jpg" alt="program1">
+        <h3 class="program-card-descriptions">Deadicalted Staff Committed to Student Success and Growth</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+
+        <button class="programs_button"> learn More</button>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="from-section">
+    <div class="element__left">
+      <img class="formImg" src="./images/formimage.jpg" alt="form-image">
+    </div>
+    <div class="element__right">
+      <h3>Sign Up Today Now! </h3>
+      <p class="element__subtitle">
+        Fill out the from below to sign up for our newsletter and recevice update.
+      </p>
+      <div class="element">
+        <h3>Your Interest:</h3>
+        <ul class="element__list">
+          <li class="element__list-item">Web Development</li>
+          <li class="element__list-item">UI UX Design</li>
+          <li class="element__list-item">Digital Marketings</li>
+        </ul>
+        <div class="element__form">
+          <form class="element__form-group">
+            <label for="name">Username</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <select id="course">
+              <option value="">Choose a course...</option>
+              <option value="html">HTML & CSS</option>
+              <option value="js">Javascript</option>
+              <option value="react">React</option>
+
+
+            </select>
+
+            <button class="element__button" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
 </body>
 
